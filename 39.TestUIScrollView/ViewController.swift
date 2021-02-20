@@ -18,7 +18,6 @@ class ViewController: UIViewController {
 		view.backgroundColor = .green
 		
 		view.addSubview(scrollView)
-		
 		scrollView.snp.makeConstraints { (make) in
 			make.left.right.top.equalToSuperview()
 			make.height.equalTo(400)
@@ -56,7 +55,6 @@ class LSScrollView: UIScrollView {
 		let contentView = UIView()
 		return contentView
 	}()
-
 	override init(frame: CGRect) {
 		super.init(frame: frame)
 		addSubview(contentView)
@@ -65,7 +63,6 @@ class LSScrollView: UIScrollView {
 			make.width.equalToSuperview() // 垂直滚动需要固定宽度
 		}
 	}
-
 	required init?(coder: NSCoder) {
 		fatalError("init(coder:) has not been implemented")
 	}
