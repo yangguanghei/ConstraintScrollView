@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		18DFB57425E0B70600B06E75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DFB57225E0B70600B06E75 /* LaunchScreen.storyboard */; };
 		18DFB57F25E0B70600B06E75 /* _9_TestUIScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFB57E25E0B70600B06E75 /* _9_TestUIScrollViewTests.swift */; };
 		18DFB58A25E0B70600B06E75 /* _9_TestUIScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFB58925E0B70600B06E75 /* _9_TestUIScrollViewUITests.swift */; };
+		2F12B32FEE73FD4A7440DBDE /* Pods_39_TestUIScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ABDCF6C67CFA05C9383F50 /* Pods_39_TestUIScrollView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07BE9E1EF6E50257836E5EC3 /* Pods-39.TestUIScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-39.TestUIScrollView.release.xcconfig"; path = "Target Support Files/Pods-39.TestUIScrollView/Pods-39.TestUIScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		12ABDCF6C67CFA05C9383F50 /* Pods_39_TestUIScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_39_TestUIScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DFB56425E0B70300B06E75 /* 39.TestUIScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 39.TestUIScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DFB56725E0B70300B06E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18DFB56925E0B70300B06E75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		18DFB58525E0B70600B06E75 /* 39.TestUIScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 39.TestUIScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DFB58925E0B70600B06E75 /* _9_TestUIScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _9_TestUIScrollViewUITests.swift; sourceTree = "<group>"; };
 		18DFB58B25E0B70600B06E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21B34514B869AF21EF3351A7 /* Pods-39.TestUIScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-39.TestUIScrollView.debug.xcconfig"; path = "Target Support Files/Pods-39.TestUIScrollView/Pods-39.TestUIScrollView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F12B32FEE73FD4A7440DBDE /* Pods_39_TestUIScrollView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A53ACE93621A1D581F8B859 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12ABDCF6C67CFA05C9383F50 /* Pods_39_TestUIScrollView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		18DFB55B25E0B70300B06E75 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +96,8 @@
 				18DFB57D25E0B70600B06E75 /* 39.TestUIScrollViewTests */,
 				18DFB58825E0B70600B06E75 /* 39.TestUIScrollViewUITests */,
 				18DFB56525E0B70300B06E75 /* Products */,
+				8E5540652E1975DD9F9B4236 /* Pods */,
+				0A53ACE93621A1D581F8B859 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +143,15 @@
 			path = 39.TestUIScrollViewUITests;
 			sourceTree = "<group>";
 		};
+		8E5540652E1975DD9F9B4236 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21B34514B869AF21EF3351A7 /* Pods-39.TestUIScrollView.debug.xcconfig */,
+				07BE9E1EF6E50257836E5EC3 /* Pods-39.TestUIScrollView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18DFB58E25E0B70600B06E75 /* Build configuration list for PBXNativeTarget "39.TestUIScrollView" */;
 			buildPhases = (
+				6504A7BC789505E48E2B9426 /* [CP] Check Pods Manifest.lock */,
 				18DFB56025E0B70300B06E75 /* Sources */,
 				18DFB56125E0B70300B06E75 /* Frameworks */,
 				18DFB56225E0B70300B06E75 /* Resources */,
+				D9CA7635E44E5A5D46A5F97D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +278,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6504A7BC789505E48E2B9426 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-39.TestUIScrollView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9CA7635E44E5A5D46A5F97D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-39.TestUIScrollView/Pods-39.TestUIScrollView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-39.TestUIScrollView/Pods-39.TestUIScrollView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-39.TestUIScrollView/Pods-39.TestUIScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18DFB56025E0B70300B06E75 /* Sources */ = {
@@ -433,12 +501,14 @@
 		};
 		18DFB58F25E0B70600B06E75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21B34514B869AF21EF3351A7 /* Pods-39.TestUIScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N4686HA3AU;
 				INFOPLIST_FILE = 39.TestUIScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,12 +522,14 @@
 		};
 		18DFB59025E0B70600B06E75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07BE9E1EF6E50257836E5EC3 /* Pods-39.TestUIScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N4686HA3AU;
 				INFOPLIST_FILE = 39.TestUIScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
